@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: lightcyan;
+}
+.input-section {
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+.input-section .input-text {
+  font-size: 1.2rem;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+.input-section input:focus {
+  outline: 2px solid black;
+}
+
+.input-section button {
+  font-size: 1.35rem;
+  padding: 10px;
+  border: none;
+  margin-left: 0.1rem;
+  background-color: rgb(163, 163, 249);
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.input-section label {
+  text-transform: capitalize;
+  margin: 0 1.6rem 0 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.input-section .warning {
+  outline: 2px solid rgb(237, 71, 71);
+}
+.color-section {
+  margin: 3rem 0;
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.single-color {
+  min-width: 150px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 1rem;
+  gap: 5px;  
+  cursor: pointer;
+}
+.single-color p{
+  letter-spacing: 2px;
+}
+.single-color h5{
+  margin-top: 30px;
+  font-weight: 100;
+}
+.color-white{
+  color: #fff;
+}
